@@ -90,11 +90,11 @@ class _MyHomePageState extends State<MyHomePage>
                       width: 40,
                       decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(10),
-                          color: Colors.white70),
+                          color: Colors.white54),
                       child: Padding(
                         padding: const EdgeInsets.all(4.0),
                         child: Icon(
-                          Icons.favorite_outline,
+                          Icons.close,
                           color: Colors.black,
                         ),
                       )),
@@ -108,11 +108,11 @@ class _MyHomePageState extends State<MyHomePage>
                         width: 40,
                         decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(10),
-                            color: Colors.white70),
+                            color: Colors.white54),
                         child: Padding(
                           padding: const EdgeInsets.all(4.0),
                           child: Icon(
-                            Icons.close,
+                            Icons.favorite_outline,
                             color: Colors.black,
                           ),
                         )),
@@ -270,7 +270,7 @@ class ExampleData {
   ];
 
   static Category category1 = Category(
-    title: "المشويات",
+    title: "الأكثر طلبا",
     subtitle: "附副餐一份，鍋類肉品「煙嶿肉、醃牛肉」，擇一",
     isHotSale: true,
     foods: List.generate(
